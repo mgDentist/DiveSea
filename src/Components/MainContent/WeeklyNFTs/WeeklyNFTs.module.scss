@@ -1,0 +1,29 @@
+.weeklyNFTs {
+    background-color: #f1f1f1;
+    padding: 50px 0 0;
+
+    @media (min-width: 1440px) {
+        padding: 70px 0 0;
+    }
+}
+
+.weeklyNFTs__title {
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    color: #c5c5c5;
+
+    @media (min-width: 1024px) {
+        font-size: 32px;
+        line-height: 112%;
+    }
+
+    @media (min-width: 1440px) {
+        margin-bottom: 26px;
+        font-size: 46px;
+        line-height: 104%;
+    }
+}

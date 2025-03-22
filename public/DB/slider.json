@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "title": "Abstract Wave",
+        "imageURL": {
+            "mobile-png": "/assets/content/weekly-top-nft/abstract-wave.png",
+            "mobileRetina-png": "/assets/content/weekly-top-nft/abstract-wave@2x.png",
+            "desktop-png": "/assets/content/weekly-top-nft/abstract-wave-desktop.png",
+            "desktopRetina-png": "/assets/content/weekly-top-nft/abstract-wave-desktop@2x.png",
+            "mobile-webp": "/assets/content/weekly-top-nft/abstract-wave.webp",
+            "mobileRetina-webp": "/assets/content/weekly-top-nft/abstract-wave@2x.webp",
+            "desktop-webp": "/assets/content/weekly-top-nft/abstract-wave-desktop.webp",
+            "desktopRetina-webp": "/assets/content/weekly-top-nft/abstract-wave-desktop@2x.webp"
+        },
+        "endDate": "2025-03-21T23:59:59Z",
+        "currentBid": "1.25"
+    },
+    {
+        "id": 2,
+        "title": "Digital Landscape",
+        "imageURL": {
+            "mobile-png": "/assets/content/weekly-top-nft/digital-landscape.png",
+            "mobileRetina-png": "/assets/content/weekly-top-nft/digital-landscape@2x.png",
+            "desktop-png": "/assets/content/weekly-top-nft/digital-landscape-desktop.png",
+            "desktopRetina-png": "/assets/content/weekly-top-nft/digital-landscape-desktop@2x.png",
+            "mobile-webp": "/assets/content/weekly-top-nft/digital-landscape.webp",
+            "mobileRetina-webp": "/assets/content/weekly-top-nft/digital-landscape@2x.webp",
+            "desktop-webp": "/assets/content/weekly-top-nft/digital-landscape-desktop.webp",
+            "desktopRetina-webp": "/assets/content/weekly-top-nft/digital-landscape-desktop@2x.webp"
+        },
+        "endDate": "2025-12-25T18:30:00Z",
+        "currentBid": "0.87"
+    },
+    {
+        "id": 3,
+        "title": "Space Journey",
+        "imageURL": {
+            "mobile-png": "/assets/content/weekly-top-nft/space-journey.png",
+            "mobileRetina-png": "/assets/content/weekly-top-nft/space-journey@2x.png",
+            "desktop-png": "/assets/content/weekly-top-nft/space-journey-desktop.png",
+            "desktopRetina-png": "/assets/content/weekly-top-nft/space-journey-desktop@2x.png",
+            "mobile-webp": "/assets/content/weekly-top-nft/space-journey.webp",
+            "mobileRetina-webp": "/assets/content/weekly-top-nft/space-journey@2x.webp",
+            "desktop-webp": "/assets/content/weekly-top-nft/space-journey-desktop.webp",
+            "desktopRetina-webp": "/assets/content/weekly-top-nft/space-journey-desktop@2x.webp"
+        },
+        "endDate": "2025-04-05T12:00:00Z",
+        "currentBid": "2.5"
+    },
+    {
+        "id": 4,
+        "title": "Neon Fantasy",
+        "imageURL": {
+            "mobile-png": "/assets/content/weekly-top-nft/neon-fantasy.png",
+            "mobileRetina-png": "/assets/content/weekly-top-nft/neon-fantasy@2x.png",
+            "desktop-png": "/assets/content/weekly-top-nft/neon-fantasy.png",
+            "desktopRetina-png": "/assets/content/weekly-top-nft/neon-fantasy-desktop@2x.png",
+            "mobile-webp": "/assets/content/weekly-top-nft/neon-fantasy.webp",
+            "mobileRetina-webp": "/assets/content/weekly-top-nft/neon-fantasy@2x.webp",
+            "desktop-webp": "/assets/content/weekly-top-nft/neon-fantasy-desktop.webp",
+            "desktopRetina-webp": "/assets/content/weekly-top-nft/neon-fantasy-desktop@2x.webp"
+        },
+        "endDate": "2025-12-28T15:45:00Z",
+        "currentBid": "1.08"
+    },
+    {
+        "id": 5,
+        "title": "Cyberpunk City",
+        "imageURL": {
+            "mobile-png": "/assets/content/weekly-top-nft/cyberpunk-city.png",
+            "mobileRetina-png": "/assets/content/weekly-top-nft/cyberpunk-city@2x.png",
+            "desktop-png": "/assets/content/weekly-top-nft/cyberpunk-city-desktop.png",
+            "desktopRetina-png": "/assets/content/weekly-top-nft/cyberpunk-city-desktop@2x.png",
+            "mobile-webp": "/assets/content/weekly-top-nft/cyberpunk-city.webp",
+            "mobileRetina-webp": "/assets/content/weekly-top-nft/cyberpunk-city@2x.webp",
+            "desktop-webp": "/assets/content/weekly-top-nft/cyberpunk-city-desktop.webp",
+            "desktopRetina-webp": "/assets/content/weekly-top-nft/cyberpunk-city-desktop@2x.webp"
+        },
+        "endDate": "2024-05-10T20:00:00Z",
+        "currentBid": "3.21"
+    },
+    {
+        "id": 6,
+        "title": "Spicy Juice",
+        "imageURL": {
+            "mobile-png": "/assets/content/weekly-top-nft/space-journey.png",
+            "mobileRetina-png": "/assets/content/weekly-top-nft/space-journey@2x.png",
+            "desktop-png": "/assets/content/weekly-top-nft/space-journey-desktop.png",
+            "desktopRetina-png": "/assets/content/weekly-top-nft/space-journey-desktop@2x.png",
+            "mobile-webp": "/assets/content/weekly-top-nft/space-journey.webp",
+            "mobileRetina-webp": "/assets/content/weekly-top-nft/space-journey@2x.webp",
+            "desktop-webp": "/assets/content/weekly-top-nft/space-journey-desktop.webp",
+            "desktopRetina-webp": "/assets/content/weekly-top-nft/space-journey-desktop@2x.webp"
+        },
+        "endDate": "2025-04-05T12:00:00Z",
+        "currentBid": "2.5"
+    },
+    {
+        "id": 7,
+        "title": "Milky Way",
+        "imageURL": {
+            "mobile-png": "/assets/content/weekly-top-nft/cyberpunk-city.png",
+            "mobileRetina-png": "/assets/content/weekly-top-nft/cyberpunk-city@2x.png",
+            "desktop-png": "/assets/content/weekly-top-nft/cyberpunk-city-desktop.png",
+            "desktopRetina-png": "/assets/content/weekly-top-nft/cyberpunk-city-desktop@2x.png",
+            "mobile-webp": "/assets/content/weekly-top-nft/cyberpunk-city.webp",
+            "mobileRetina-webp": "/assets/content/weekly-top-nft/cyberpunk-city@2x.webp",
+            "desktop-webp": "/assets/content/weekly-top-nft/cyberpunk-city-desktop.webp",
+            "desktopRetina-webp": "/assets/content/weekly-top-nft/cyberpunk-city-desktop@2x.webp"
+        },
+        "endDate": "2024-05-10T20:00:00Z",
+        "currentBid": "3.21"
+    },
+    {
+        "id": 8,
+        "title": "Frozen Lord",
+        "imageURL": {
+            "mobile-png": "/assets/content/weekly-top-nft/digital-landscape.png",
+            "mobileRetina-png": "/assets/content/weekly-top-nft/digital-landscape@2x.png",
+            "desktop-png": "/assets/content/weekly-top-nft/digital-landscape-desktop.png",
+            "desktopRetina-png": "/assets/content/weekly-top-nft/digital-landscape-desktop@2x.png",
+            "mobile-webp": "/assets/content/weekly-top-nft/digital-landscape.webp",
+            "mobileRetina-webp": "/assets/content/weekly-top-nft/digital-landscape@2x.webp",
+            "desktop-webp": "/assets/content/weekly-top-nft/digital-landscape-desktop.webp",
+            "desktopRetina-webp": "/assets/content/weekly-top-nft/digital-landscape-desktop@2x.webp"
+        },
+        "endDate": "2025-12-25T18:30:00Z",
+        "currentBid": "0.87"
+    }
+]

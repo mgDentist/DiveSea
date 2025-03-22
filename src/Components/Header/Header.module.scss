@@ -1,0 +1,307 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 30px 30px 0;
+    background-color: #ffffff;
+
+    @media (min-width: 1024px) {
+        padding: 32px 67px 40px;
+    }
+
+    @media (min-width: 1440px) {
+        padding: 45px 97px 0;
+    }
+
+    &.scrolled {
+        border-radius: 0 0 20px 20px;
+    }
+}
+
+.mobileMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: #ffffff;
+    padding: 30px 30px 0;
+    transform: translateY(-100%);
+
+    &.open {
+        animation: menuSlideIn 0.3s ease forwards;
+    }
+
+    &.closing {
+        animation: menuSlideOut 0.3s ease forwards;
+    }
+}
+
+@keyframes menuSlideIn {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes menuSlideOut {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+.headerContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 40px;
+    padding-bottom: 30px;
+
+    @media (min-width: 1024px) {
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 40px;
+        padding-bottom: 0;
+    }
+
+    @media (min-width: 1440px) {
+        column-gap: 66px;
+        padding-bottom: 95px;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 0.5px;
+        background-color: #cbcbcb;
+        border-radius: 0.25px;
+
+        @media (min-width: 1024px) {
+            display: none;
+        }
+    }
+}
+
+.mobileMenuContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 44px;
+    padding: 120px 0 45px;
+    height: 100%;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 76px;
+        left: 0;
+        right: 0;
+        height: 0.5px;
+        background-color: #cbcbcb;
+        border-radius: 0.25px;
+    }
+}
+
+.logoContainer {
+    &.logoContainerMobile {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.logoImg {
+    width: 144px;
+    height: 46px;
+
+    @media (min-width: 1024px) {
+        width: 38px;
+        height: 38px;
+    }
+
+    @media (min-width: 1440px) {
+        width: 53px;
+        height: 53px;
+    }
+}
+
+.nav {
+    display: none;
+
+    @media (min-width: 1024px) {
+        display: flex;
+    }
+}
+
+.navMobile {
+    display: flex;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 32px;
+    row-gap: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    text-transform: uppercase;
+    color: #606060;
+
+    @media (min-width: 1024px) {
+        font-size: 14px;
+        line-height: 114%;
+    }
+
+    @media (min-width: 1440px) {
+        column-gap: 51px;
+        font-size: 18px;
+        line-height: 149%;
+    }
+
+    a {
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: #141416;
+        }
+    }
+}
+
+.navListMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 105%;
+    letter-spacing: 1px; // нет в макете, но для ПП нужно
+    text-transform: uppercase;
+    color: #606060;
+
+    a {
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: #141416;
+        }
+    }
+}
+
+.socialLinksContainerMobile {
+    display: block;
+
+    ul {
+        display: flex;
+        gap: 40px;
+
+        a {
+            color: #535353;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #141416;
+            }
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}
+
+.connectWalletButton {
+    display: none;
+    width: 100%;
+    min-width: 316px;
+    max-width: 500px;
+    min-height: 60px;
+    padding: 19px 20px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #141416;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #141416;
+
+    transition:
+        background-color 0.3s ease,
+        border 0.3s ease;
+
+    &:hover {
+        background-color: #222222;
+        border: 1px solid #222222;
+    }
+
+    @media (min-width: 1024px) {
+        width: auto;
+        display: flex;
+        min-width: 140px;
+        min-height: 40px;
+        margin: 0 0 0 auto;
+        padding: 11px 16px;
+        font-size: 11px;
+        line-height: 150%;
+    }
+
+    @media (min-width: 1440px) {
+        min-width: 200px;
+        min-height: 54px;
+        padding: 15px 25px;
+        font-size: 16px;
+        line-height: 137%;
+    }
+
+    &.connectWalletButtonMobile {
+        display: flex;
+        margin: auto 0 0;
+    }
+}
+
+.menuButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    position: relative;
+    z-index: 101;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    @media (min-width: 1024px) {
+        display: none;
+    }
+}
