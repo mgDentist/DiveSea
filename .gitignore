@@ -5,6 +5,8 @@ Thumbs.db
 # Лог-файлы
 *.log
 
+build/
+
 # Node.js
 node_modules/
 npm-debug.log*
