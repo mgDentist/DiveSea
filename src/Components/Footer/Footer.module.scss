@@ -46,6 +46,10 @@
 
 .footerLogoContainer {
     flex: 0 0 50%;
+
+    @media (min-width: 1024px) {
+        flex: 0 0 49%;
+    }
 }
 
 .footerLogo {
@@ -123,9 +127,9 @@
 
     @media (min-width: 1024px) {
         flex-direction: row;
-        justify-content: flex-end;
-        column-gap: 50px;
-        margin-top: 0;
+        justify-content: flex-start;
+        column-gap: 55px;
+        margin-top: -4px;
         padding-bottom: 0;
 
 
@@ -133,11 +137,11 @@
         line-height: 150%;
         text-transform: capitalize;
 
-        flex: 0 0 50%;
+        flex: 0 0 51%;
     }
 
     @media (min-width: 1440px) {
-        column-gap: 70px;
+        column-gap: 78px;
         font-size: 17px;
     }
 
